@@ -1,5 +1,5 @@
 /* Pinegrow generated Design Panel Init Begin */
-@import url('https://fonts.googleapis.com/css?family=Kalam:300,400,700|Playfair+Display:400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Space+Grotesk:300,400,500,600,700&display=swap');
 
 /* Pinegrow generated Design Panel Init End */
 
@@ -57,7 +57,7 @@ h6 {
 }
 
 .poster:before {
-  background-image: url(https://images.unsplash.com/photo-1681835108931-aea72262dd5c?crop=entropy&cs=srgb&fm=jpg&ixid=M3wyMDkyMnwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5Mjg1Mjc0NHw&ixlib=rb-4.0.3&q=85) !important;
+  background-image: url(https://images.unsplash.com/photo-1632061253472-9c715a570b6c?crop=entropy&cs=srgb&fm=jpg&ixid=M3wyMDkyMnwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5Mjg1Mjc0NHw&ixlib=rb-4.0.3&q=85) !important;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -77,7 +77,7 @@ body.poster:before {
   (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2),
   (min-width: 992px) and (min-resolution: 192dpi) {
   .poster:before {
-    background-image: url(https://images.unsplash.com/photo-1681835108931-aea72262dd5c?crop=entropy&cs=srgb&fm=jpg&ixid=M3wyMDkyMnwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5Mjg1Mjc0NHw&ixlib=rb-4.0.3&q=85) !important;
+    background-image: url(https://images.unsplash.com/photo-1632061253472-9c715a570b6c?crop=entropy&cs=srgb&fm=jpg&ixid=M3wyMDkyMnwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5Mjg1Mjc0NHw&ixlib=rb-4.0.3&q=85) !important;
   }
 }
 body,

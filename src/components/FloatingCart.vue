@@ -1,6 +1,10 @@
 <script setup lang="ts">
   import BaseButton from '@/components/BaseButton.vue'
-  const { cartText } = useCart()
+  // Using a composable for the cart
+  // const { cartText } = useCart()
+
+  // Using a store for the cart
+  const { cartText } = storeToRefs(useCartStore())
 </script>
 <template>
   <BaseButton

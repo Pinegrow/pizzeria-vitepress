@@ -11,7 +11,10 @@
   })
 
   // Using a composable for the cart
-  const { addToCart } = useCart()
+  // const { addToCart } = useCart()
+
+  // Using a store for the cart
+  const { addToCart } = useCartStore()
 </script>
 <template>
   <section class="pb-24 pt-12 text-center text-gray-50">
