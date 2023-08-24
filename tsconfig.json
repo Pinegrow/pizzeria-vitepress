@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "paths": {
+      "@/*": ["./src/*"],
+      "~/*": ["./src/*"],
+      "~~/*": ["./*"]
+    },
+    "types": ["node"],
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
+    "skipLibCheck": true,
+    "allowJs": true,
+    "strict": false
+  },
+  "include": [
+    "**/*.tsx",
+    "**/*.ts",
+    "**/*.vue",
+    "**/.vitepress/**/*",
+    "docs/**/*"
+  ],
+  "exclude": ["**/node_modules/**", "**/dist/**"]
+}
