@@ -1,10 +1,23 @@
-# Vue Designer Vitepress Tailwind CSS - Quick start template
+# Pizzeria with Vitepress
+
+This repository was live-designed with Vue Designer by following the free YouTube course "**Pizzeria Static HTML into Vue Islands with 🏝 Iles, Vitepress & Astro**", which is part of the "**Learn With Vue Designer**" series. Check it out [here](https://docs.pinegrow.com/docs/vue/tutorials-courses/).
+
+"**Pizzeria**" is a simple SPA-SSG for a pizza shop that displays a list of pizzas in its store and allows users to add the pizzas to a cart. The cart is maintained in a Pinia store and displays the cart size on a floating cart button.
+
+This is a sample project created using:
+
+- Source HTML page - [https://library.pinegrow.com/tailwind/templates/yummypizza_tw/](https://library.pinegrow.com/tailwind/templates/yummypizza_tw/)
+- Starter Template - [Vue Designer Vitepress Tailwind CSS - Quick start template](https://github.com/pinegrow/pg-vitepress-tailwindcss-custom) (see next section for its Readme)
+
+Final Output Demo - https://tiny-torrone-dcd335.netlify.app/
+
+## Vue Designer Vitepress Tailwind CSS - Quick start template
 
 This is a starter template that pre-includes the [Pinegrow Vite Plugin](https://www.npmjs.com/package/@pinegrow/vitepress-module), [Pinegrow Tailwind CSS Plugin](https://www.npmjs.com/package/@pinegrow/tailwindcss-plugin) and other goodies for Vue Designer.
 
 This Awesome Static Site (which is also a single-page application) is powered by Vitepress and Tailwind CSS. This template demonstrates how a custom theme can be applied to an existing Vitepress site and easily designed in Vue Designer. It slightly diverges from the standard Vitepress project setup by moving the Vitepress config, app entry, and custom theme outside the '.vitepress' folder. The config resides in the project root as 'Vitepress.config.ts', and the app and its custom theme reside in the familiar 'src' folder.
 
-Demo - https://tiny-torrone-dcd335.netlify.app//
+Demo - https://pg-vitepress-tailwindcss-custom.netlify.app/
 
 ## Vue Designer
 

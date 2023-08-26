@@ -1,6 +1,4 @@
 <script setup lang="ts">
-  import BaseButton from '@/components/BaseButton.vue'
-  import BaseIcon from '@/components/BaseIcon.vue'
   defineProps({
     name: {
       type: String,

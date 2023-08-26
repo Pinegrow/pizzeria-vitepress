@@ -4,16 +4,6 @@ title: Home
 layout: home
 ---
 
-<script setup lang="ts">
-import HeroSection from '@/components/HeroSection.vue'
-import FeatureSection from '@/components/FeatureSection.vue'
-import TheDivider from '@/components/TheDivider.vue'
-import PizzaStoreAsync from '@/components/PizzaStoreAsync.vue'
-import DeliverySection from '@/components/DeliverySection.vue'
-import SubscribeSection from '@/components/SubscribeSection.vue'
-import {Suspense} from 'vue'
-</script>
-
 <main>
   <HeroSection />
   <FeatureSection />

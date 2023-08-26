@@ -1,5 +1,4 @@
 <script setup lang="ts">
-  import BaseButton from '@/components/BaseButton.vue'
   // Using a composable for the cart
   // const { cartText } = useCart()
 

@@ -1,7 +1,5 @@
 <script setup lang="ts">
   // import pizzas from '~~/db.json'
-  import PizzaCard from '@/components/PizzaCard.vue'
-  import BaseButton from '@/components/BaseButton.vue'
 
   defineProps({
     pizzas: {

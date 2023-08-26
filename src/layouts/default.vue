@@ -1,11 +1,5 @@
 <script setup lang="ts">
   import { useData, useRoute } from 'vitepress'
-  import MetaTags from '@/components/MetaTags.vue'
-  import NavBar from '@/components/NavBar.vue'
-  import BaseButton from '@/components/BaseButton.vue'
-  import TheHeader from '@/components/TheHeader.vue'
-  import FloatingCart from '@/components/FloatingCart.vue'
-  import TheFooter from '@/components/TheFooter.vue'
   const { site, frontmatter } = useData()
   const currentRoute = useRoute()
 </script>

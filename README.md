@@ -5,6 +5,7 @@ This repository was live-designed with Vue Designer by following the free YouTub
 "**Pizzeria**" is a simple SPA-SSG for a pizza shop that displays a list of pizzas in its store and allows users to add the pizzas to a cart. The cart is maintained in a Pinia store and displays the cart size on a floating cart button.
 
 This is a sample project created using:
+
 - Source HTML page - [https://library.pinegrow.com/tailwind/templates/yummypizza_tw/](https://library.pinegrow.com/tailwind/templates/yummypizza_tw/)
 - Starter Template - [Vue Designer Vitepress Tailwind CSS - Quick start template](https://github.com/pinegrow/pg-vitepress-tailwindcss-custom) (see next section for its Readme)
 
