@@ -8,7 +8,7 @@
   },
   "type": "module",
   "scripts": {
-    "dev": "vitepress dev  --host",
+    "dev": "vitepress dev --host",
     "now": "npm run build && npm run preview",
     "build": "vitepress build",
     "preview": "vitepress serve",
@@ -16,7 +16,7 @@
     "vue-devtools": "vue-devtools",
     "lint": "npm run lint:fix && npm run format",
     "lint:fix": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
-    "format": "prettier --write . '!public'"
+    "format": "prettier --write . !public"
   },
   "engines": {
     "node": "^14.18 || >= 16.0.0"
@@ -31,8 +31,8 @@
   "devDependencies": {
     "@iconify/json": "^2.2.51",
     "@nuxt/eslint-config": "^0.1.1",
-    "@pinegrow/tailwindcss-plugin": "^3.0.5",
-    "@pinegrow/vite-plugin": "^3.0.15",
+    "@pinegrow/tailwindcss-plugin": "^3.0.18",
+    "@pinegrow/vite-plugin": "^3.0.34",
     "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/typography": "^0.5.9",
     "@types/node": "^20.5.0",
