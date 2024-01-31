@@ -8,19 +8,20 @@
 //   window.devtoolsKey = devtools
 // }
 
-// https://vitepress.dev/guide/custom-theme
-// import { h } from 'vue'
-// import Theme from 'vitepress/theme'
-import Layout from '@/layouts/default.vue'
 import 'uno.css'
 // import '@/assets/css/main.css'
 import '@/assets/css/tailwind.css'
 // import 'prismjs/themes/prism-tomorrow.css'
 
+// https://vitepress.dev/guide/custom-theme
+// import { h } from 'vue'
+// import Theme from 'vitepress/theme'
+import { Theme, defineConfigWithTheme } from 'vitepress'
+import Layout from '@/layouts/default.vue'
 import pinia from '@/plugins/pinia'
 import head from '@/plugins/head'
 
-export default {
+export default <Theme>{
   // extends: Theme,
   // Layout: () => {
   //   return h(Theme.Layout, null, {
@@ -29,8 +30,8 @@ export default {
   // },
   Layout,
   enhanceApp({ app, router, siteData }) {
-    // ...
     app.use(pinia)
     app.use(head)
+    // ...
   },
 }

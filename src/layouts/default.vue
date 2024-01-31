@@ -1,19 +1,17 @@
 <script setup lang="ts">
-  import { useData, useRoute } from 'vitepress'
+  import { useData } from 'vitepress'
   const { site, frontmatter } = useData()
-  const currentRoute = useRoute()
 </script>
+
 <template>
   <div>
-    <MetaTags />
+    <HeadAndMeta />
     <div
       class="flex flex-col bg-white dark:bg-neutral-950 text-neutral-900 dark:text-neutral-50"
     >
       <FloatingCart class="bottom-12 fixed right-2 z-20"></FloatingCart>
-      <NavBar
-        :class="[currentRoute.path === '/' ? 'absolute z-10' : '']"
-      ></NavBar>
-      <div class="shadow">
+      <NavBar class="fixed bg-white dark:bg-neutral-950 shadow z-20" />
+      <main class="mt-24 shadow">
         <div>
           <div v-if="frontmatter.slug !== 'home'">
             <TheHeader>
@@ -30,7 +28,7 @@
                     size="xs"
                     class="ml-2"
                     color="secondary"
-                    to="https://github.com/pinegrow/pizzeria-vitepress"
+                    to="https://github.com/pinegrow/pg-vitepress-tailwindcss-custom"
                     target="_blank"
                   >
                     <span>Click here</span>
@@ -62,11 +60,12 @@
               </div>
             </div>
           </div>
+
           <div v-else>
             <Content />
           </div>
         </div>
-      </div>
+      </main>
       <TheFooter />
     </div>
   </div>

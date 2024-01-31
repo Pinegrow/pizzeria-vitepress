@@ -116,6 +116,7 @@ Check out the [deployment documentation](https://vitepress.pages.dev/guide/deplo
 - 📲 [unplugin-auto-import](https://github.com/antfu/unplugin-auto-import) - Auto import APIs on-demand for Vite, Webpack and Rollup.
 - [VueUse](https://vueuse.org/) - collection of essential Vue composition utilities.
 - 🍍 [Pinia](https://pinia.vuejs.org/) stores for global state management. Its light-weight, type-safe, extensible, modular with vue-devtools support.
+- [VeeValidate](https://vee-validate.logaretm.com/v4/) takes care of value tracking, validation, errors, submissions and more.
 
 ### Devtools
 
@@ -153,4 +154,4 @@ This project allows JS, and strict mode is turned off. Update `tsconfig.ts` as r
 
 ## Community
 
-- [Vue Designer Community](https://forum.pinegrow.com/c/vue-designer)
+- [Vue Designer Community](https://discord.gg/BYp45Nnu5T)
