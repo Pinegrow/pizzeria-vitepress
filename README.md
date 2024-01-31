@@ -9,7 +9,7 @@ This is a sample project created using:
 - Source HTML page - [https://library.pinegrow.com/tailwind/templates/yummypizza_tw/](https://library.pinegrow.com/tailwind/templates/yummypizza_tw/)
 - Starter Template - [Vue Designer Vitepress Tailwind CSS - Quick start template](https://github.com/pinegrow/pg-vitepress-tailwindcss-custom) (see next section for its Readme)
 
-Final Output Demo - https://pg-pizzeria-vitepress.netlify.app/
+Final Output Demo - https://pizzeria-vitepress.netlify.app/
 
 ## Vue Designer Vitepress Tailwind CSS - Quick start template
 

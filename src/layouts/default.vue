@@ -28,7 +28,7 @@
                     size="xs"
                     class="ml-2"
                     color="secondary"
-                    to="https://github.com/pinegrow/pg-pizzeria-vitepress"
+                    to="https://github.com/pinegrow/pizzeria-vitepress"
                     target="_blank"
                   >
                     <span>Click here</span>

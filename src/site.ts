@@ -6,7 +6,7 @@ export default {
   title: `Pizzeria`,
   description: 'Yummy Pizzas',
   author: 'Pinegrow',
-  url: 'https://pg-pizzeria-vitepress.netlify.app',
+  url: 'https://pizzeria-vitepress.netlify.app',
   nav: [
     { text: 'Home', link: '/' },
     { text: 'Menu', link: '/menu' },
