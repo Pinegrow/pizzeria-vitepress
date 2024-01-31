@@ -1,10 +1,10 @@
 {
-  "name": "pizzeria-vitepress",
+  "name": "pg-pizzeria-vitepress",
   "version": "0.0.0",
   "homepage": "https://pg-pizzeria-vitepress.netlify.app/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pinegrow/pizzeria-vitepress.git"
+    "url": "https://github.com/pinegrow/pg-pizzeria-vitepress.git"
   },
   "type": "module",
   "scripts": {
