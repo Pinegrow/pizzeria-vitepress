@@ -14,19 +14,21 @@
     "build": "vitepress build",
     "preview": "vitepress serve",
     "typecheck": "vue-tsc --noEmit",
-    "vue-devtools": "vue-devtools",
     "lint": "npm run lint:fix && npm run format",
-    "lint:fix": "eslint --fix --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts ./ --ignore-path .gitignore",
+    "lint:fix": "eslint --fix ./",
     "format": "prettier --write \"**/*.{vue,js,jsx,cjs,mjs,ts,tsx,cts,mts,html,css,md,mdx,json}\" !public --ignore-path .gitignore"
   },
   "engines": {
     "node": "^14.18 || >= 16.0.0"
   },
   "dependencies": {
+    "@unhead/schema": "^1.11.15",
+    "@unhead/schema-org": "^1.11.15",
+    "@unhead/vue": "^1.11.15",
     "@vueuse/core": "^10.0.2",
-    "@vueuse/head": "^1.1.26",
     "defu": "^6.1.2",
     "lite-youtube-embed": "^0.2.0",
+    "ofetch": "^1.0.1",
     "pinia": "^2.1.6",
     "vee-validate": "^4.11.6",
     "vue": "^3.3.4"
@@ -40,12 +42,10 @@
     "@tailwindcss/typography": "^0.5.9",
     "@types/node": "^20.5.0",
     "@unocss/preset-icons": "^0.57.2",
-    "@vue/devtools": "^6.5.0",
     "autoprefixer": "^10.4.14",
     "eslint": "^8.36.0",
     "eslint-config-prettier": "^8.7.0",
     "npm-run-all": "^4.1.5",
-    "ofetch": "^1.0.1",
     "postcss": "^8.4.22",
     "prettier": "^2.8.4",
     "rollup-plugin-visualizer": "^5.12.0",

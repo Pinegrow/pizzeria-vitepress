@@ -6,6 +6,8 @@ import AutoImportComponents from 'unplugin-vue-components/vite'
 import AutoImportAPIs from 'unplugin-auto-import/vite'
 import Unocss from 'unocss/vite'
 import presetIcons from '@unocss/preset-icons'
+import { unheadVueComposablesImports } from '@unhead/vue'
+
 import VueDevTools from 'vite-plugin-vue-devtools'
 // import myVitepressModule from './src/modules/my-module'
 
@@ -26,7 +28,7 @@ export default defineConfig({
   sitemap: {
     hostname: url,
   },
-
+  cleanUrls: true,
   vue: {
     template: {
       compilerOptions: {
@@ -51,7 +53,7 @@ export default defineConfig({
           // 'vue-router',
           // 'vue-i18n',
           // 'vue/macros',
-          '@vueuse/head',
+          unheadVueComposablesImports,
           '@vueuse/core',
           'pinia',
         ],
@@ -89,16 +91,15 @@ export default defineConfig({
             prefix: 'i-', // default prefix, do not change
           }),
         ],
-        content: {
-          pipeline: {
-            include: ['../**/*'],
-          },
-        },
+        // content: {
+        //   pipeline: {
+        //     include: ['../**/*'],
+        //   },
+        // },
       }),
       VueDevTools(),
       liveDesigner({
         iconPreferredCase: 'unocss', // default value (can be removed), unocss by default uses the unocss format for icon names
-        devtoolsKey: 'devtoolsKey', // see app.ts
         /* Please ensure that you update the filenames and paths to accurately match those used in your project. */
         tailwindcss: {
           configPath: 'tailwind.config.ts',
