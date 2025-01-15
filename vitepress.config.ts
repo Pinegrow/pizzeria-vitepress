@@ -15,8 +15,8 @@ import VueDevTools from 'vite-plugin-vue-devtools'
 
 import { defineConfig } from 'vitepress'
 
-import siteDefn from './src/site'
-const { title, description, url } = siteDefn
+import siteMeta from './src/site'
+const { title, description, url } = siteMeta
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
