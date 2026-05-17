@@ -36,8 +36,8 @@
   "devDependencies": {
     "@iconify/json": "^2.2.51",
     "@nuxt/eslint-config": "^0.1.1",
-    "@pinegrow/tailwindcss-plugin": "^3.0.35",
-    "@pinegrow/vite-plugin": "^3.0.68",
+    "@pinegrow/tailwindcss-plugin": "^4.2.3",
+    "@pinegrow/vite-plugin": "^3.0.74",
     "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/typography": "^0.5.9",
     "@types/node": "^20.5.0",
