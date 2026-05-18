@@ -46,11 +46,11 @@ importers:
         specifier: ^0.1.1
         version: 0.1.1(eslint@8.57.1)
       '@pinegrow/tailwindcss-plugin':
-        specifier: ^4.2.3
-        version: 4.2.3(tailwindcss@3.4.19)
+        specifier: ^4.2.5
+        version: 4.2.5(tailwindcss@3.4.19)
       '@pinegrow/vite-plugin':
-        specifier: ^3.0.74
-        version: 3.0.74
+        specifier: ^3.0.75
+        version: 3.0.75
       '@tailwindcss/forms':
         specifier: ^0.5.3
         version: 0.5.11(tailwindcss@3.4.19)
@@ -593,14 +593,14 @@ packages:
     peerDependencies:
       eslint: ^8.29.0
 
-  '@pinegrow/tailwindcss-plugin@4.2.3':
-    resolution: {integrity: sha512-ouEUjVXt0h6Up9CWjRWBMnRFSVjTChzs7A7lhCzx/t7SL8hxuzWUJtgGVKUdXsI4Y2+cbXFWRCo7I9EENtN9hA==}
+  '@pinegrow/tailwindcss-plugin@4.2.5':
+    resolution: {integrity: sha512-8rAofbFA9zgxf+0xB7ho042O00v1Xq3BOWa4kNOHPCFEJmO32k6jaD5244KEnsG1HZgSTBo2H+d9l32/Twx9xA==}
     hasBin: true
     peerDependencies:
       tailwindcss: '>=3'
 
-  '@pinegrow/vite-plugin@3.0.74':
-    resolution: {integrity: sha512-UxQ1ouSZw2EGt/OmZNe+MjeXfponZTk47DftoWf5Ev86E6go9aCwLp3ad1DyAJ3eCFDJWK/bWyGzqBXI+bYfcA==}
+  '@pinegrow/vite-plugin@3.0.75':
+    resolution: {integrity: sha512-Ax7FBj0/LuYwGPPGhyfYO5wUmaR6aDqYsnuuGCgL034xTD70YrkfWiBZWn6QO8bQZPVyireFDLSdtAM1M9MPiQ==}
 
   '@polka/url@1.0.0-next.29':
     resolution: {integrity: sha512-wwQAWhWSuHaag8c4q/KN/vCoeOJYshAIvMQwD4GpSb3OiZklFfvAgmj0VCBBImRpuF/aFgIRzllXlVX93Jevww==}
@@ -3602,7 +3602,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@pinegrow/tailwindcss-plugin@4.2.3(tailwindcss@3.4.19)':
+  '@pinegrow/tailwindcss-plugin@4.2.5(tailwindcss@3.4.19)':
     dependencies:
       arg: 5.0.2
       chroma-js: 2.6.0
@@ -3612,7 +3612,7 @@ snapshots:
       sucrase: 3.35.1
       tailwindcss: 3.4.19
 
-  '@pinegrow/vite-plugin@3.0.74':
+  '@pinegrow/vite-plugin@3.0.75':
     dependencies:
       '@vue/compiler-sfc': 3.5.34
       magic-string: 0.27.0
